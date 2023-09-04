@@ -1,0 +1,95 @@
+
+header{
+    background: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+#logo{
+    width: 75px;
+    position: absolute;
+    top: 3%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    padding-left: 2px;
+margin-top: 0%;
+}
+li{
+    float: left;
+    padding: 3%;
+    margin-left:4% ;
+    list-style: none;
+    margin-right: 25px;
+}
+li:hover{
+    background: yellowgreen;
+}
+
+#fundo{
+    background: url("/img/porco.jpg");
+    margin: 0%;
+    height: 500px;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h1{
+    font-size: 55px;
+    color: rgb(31, 218, 106);
+    
+    }
+
+    h2,h3{
+        color: white;
+    }
+    
+    h4{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #seleção{
+    padding: 50px;
+    text-align: justify;
+    background:#f7f7f7 ;
+    }
+
+    p{
+        text-align: justify;
+        padding-left: 5%;
+        padding-right: 5%;
+         }
+
+         .onca{
+         padding-top: 2%;
+         padding-left: 5%;
+         padding-right: 5%;
+        }
+      footer{
+        background: blue;
+      }  
+      
+      @media all and (max-width: 768px) {
+        #menu{
+            visibility: hidden;
+        }
+        .objetivos, importância,de onde a mudança parte, metas, sobre mim{
+            display: block;
+            width: 80%;
+            padding: 0%;
+            margin: 10px auto;
+        }
+        .onca{
+            width: 90%;
+        }
+        #logodiv{
+            width: 100%;
+            position: relative;
+            text-align: center;
+            transform: translateX(-8%);
+        }
+      }
